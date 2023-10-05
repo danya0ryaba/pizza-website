@@ -1,0 +1,85 @@
+.root {
+    position: relative;
+    left: -120px;
+
+    @media (max-width:1400px) {
+        left: 0px;
+    }
+
+    @media (max-width:880px) {
+        width: 400px;
+    }
+
+    @media (max-width:450px) {
+        width: 300px;
+    }
+}
+
+.search {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.2;
+
+    @media (max-width:880px) {
+        top: 28px;
+    }
+
+    @media (max-width:450px) {
+        top: 15px;
+    }
+}
+
+.input {
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 45px;
+    transition: 0.2s linear;
+
+    &:focus {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    @media (max-width:1130px) {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    @media (max-width:880px) {
+        margin: 20px 0 30px;
+        max-width: 100%;
+        width: 600px;
+    }
+
+    @media (max-width:450px) {
+        margin: 6px 0 15px;
+    }
+}
+
+
+
+.close {
+    width: 18px;
+    height: 18px;
+    opacity: 0.3;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+
+    @media (max-width:730px) {
+        opacity: 1;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+
+
+}

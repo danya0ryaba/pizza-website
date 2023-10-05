@@ -1,0 +1,40 @@
+.wrapperDiv {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapperDiv .pizzaView {
+  text-align: center;
+}
+.wrapperDiv .pizzaView .image {
+  width: 360px;
+  height: 360px;
+}
+.wrapperDiv .info {
+  padding-top: 20px;
+  max-width: 500px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.wrapperDiv .info .title {
+  padding-right: 160px;
+  display: inline-block;
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+.wrapperDiv .info .price {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fe5f1e;
+}
+
+button {
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}/*# sourceMappingURL=fullpizza.module.css.map */

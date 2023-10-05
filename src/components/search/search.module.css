@@ -1,0 +1,39 @@
+.root {
+  position: relative;
+  left: -120px;
+}
+
+.input {
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 45px;
+  transition: 0.2s linear;
+}
+.input:focus {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+}
+
+.close {
+  width: 18px;
+  height: 18px;
+  opacity: 0.3;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=search.module.css.map */

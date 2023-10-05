@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: #fe5f1e;
+    border: 1px solid #fe5f1e;
+    line-height: 42px;
+
+    &:hover {
+        background-color: #fe5f1e;
+        color: white;
+
+    }
+}
+
+.active {
+    background-color: #ffa6836e;
+    color: white;
+}
